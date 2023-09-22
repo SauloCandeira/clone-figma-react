@@ -1,6 +1,6 @@
-import ClarifionLogo from '../../public/images/clarifion-logo.png'
-import McafeeLogo from '../../public/images/Mcafee.svg'
-import NortonLogo from '../../public/images/Norton.svg'
+import ClarifionLogo from '../../public/clarifion-logo.png'
+import McafeeLogo from '../../public/Mcafee.svg'
+import NortonLogo from '../../public/Norton.svg'
 
 function Header() {
   // const [count, setCount] = useState(0)
