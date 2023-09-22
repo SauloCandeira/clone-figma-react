@@ -1,16 +1,15 @@
 import { useState } from 'react'
 import Header from './components/Header';
+import Banner from './components/Banner';
 
 function App() {
 
   return (
     <>
-      {/* <p>teste</p> */}
 
       <div className=''>
         <Header></Header>
-
-        {/* <p> teste </p> */}
+        <Banner></Banner>
       </div>
 
     </>
