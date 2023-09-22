@@ -1,3 +1,6 @@
+import McafeeLogo from './../assets/images/Mcafee.svg'
+import NortonLogo from './../assets/images/Norton.svg'
+
 function Header() {
   // const [count, setCount] = useState(0)
 
@@ -8,11 +11,13 @@ function Header() {
             <div style="justify-content: flex-start; align-items: flex-start; gap: 32px; display: flex">
 
                 <div style="width: 88px; height: 32px; position: relative">
-                    <img style="width: 88px; height: 32px; left: 0px; top: 0px; position: absolute" src="./assets/images/Frame 1484578055.svg" />
+                    {/* <img style="width: 88px; height: 32px; left: 0px; top: 0px; position: absolute" src="./assets/images/McAfee.svg" /> */}
+                    <img src={McafeeLogo} style="width: 88px; height: 32px; left: 0px; top: 0px; position: absolute" alt="Mcafee logo" />
                 </div>
                 
                 <div style="width: 82px; height: 32px; position: relative">
-                    <img style="width: 88px; height: 32px; left: 0px; top: 0px; position: absolute" src="./assets/images/norton-antivirus-logo 1.svg" />
+                    <img src={NortonLogo} style="width: 88px; height: 32px; left: 0px; top: 0px; position: absolute" alt="Norton logo" />
+                    {/* <img style="width: 88px; height: 32px; left: 0px; top: 0px; position: absolute" src="./assets/images/Norton.svg" /> */}
                 </div>
             </div>
         </div>
