@@ -8,9 +8,9 @@ function App() {
       {/* <p>teste</p> */}
 
       <div className=''>
-        {/* <Header></Header> */}
+        <Header></Header>
 
-        <p> teste </p>
+        {/* <p> teste </p> */}
       </div>
 
     </>
