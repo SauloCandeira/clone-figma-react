@@ -1,35 +1,227 @@
 import React from 'react';
-import ClarifionLogo from '../../public/clarifion-logo.png';
-import McafeeLogo from '../../public/Mcafee.svg';
-import NortonLogo from '../../public/Norton.svg';
+import checkmark from '../../public/fluent_checkmark-starburst-20-regular.svg';
+import truck from '../../public/ph_truck-light.svg';
+import heart from '../../public/mdi_cards-heart-outline.svg';
+import arrow from '../../public/fluent_arrow-sync-checkmark-20-regular.svg';
+
+
 
 function Header() {
   return (
     <div
       style={{
-        width: '1500px',
-        paddingLeft: '127px',
-        paddingRight: '127px',
-        paddingTop: '30px',
-        paddingBottom: '30px',
+        // width: '1200px',
+        width: '100%',
+        height: '50px',
         left: '0px',
-        top: '50px',
+        top: '0px',
         position: 'absolute',
-        background: 'white',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        display: 'inline-flex',
-      }}
-    >
-      <img style={{ width: '192px', height: '36px' }} src={ClarifionLogo} alt="Clarifion logo" />
+      }}>
+      <div
+        style={{
+          // width: '1500px',
+          width: '100%',
+          height: '50px',
+          left: '0px',
+          top: '0px',
+          position: 'absolute',
+          background: '#252F3D',
+        }}
+      ></div>
 
-      <div style={{ justifyContent: 'flex-start', alignItems: 'flex-start', gap: '32px', display: 'flex' }}>
-        <div style={{ width: '88px', height: '32px', position: 'relative' }}>
-          <img src={McafeeLogo} style={{ width: '88px', height: '32px', left: '0px', top: '0px', position: 'absolute' }} alt="Mcafee logo" />
+      <div
+        style={{
+          width: '227px',
+          height: '22px',
+          left: '127px',
+          top: '15px',
+          position: 'absolute',
+        }}
+      >
+        <div
+          style={{
+            width: '22px',
+            height: '22px',
+            left: '0px',
+            top: '0px',
+            position: 'absolute',
+            flexDirection: 'column',
+            justifyContent: 'flex-start',
+            alignItems: 'flex-start',
+            display: 'inline-flex',
+          }}
+        >
+          <img
+            style={{
+              width: '18.20px',
+              height: '18.20px',
+            }}
+            src={checkmark}
+            alt="Checkmark Starburst"
+          />
         </div>
+        <div
+          style={{
+            left: '30px',
+            top: '7px',
+            position: 'absolute',
+            color: 'white',
+            fontSize: '12px',
+            fontFamily: 'Manrope',
+            fontWeight: '500',
+            textTransform: 'capitalize',
+            lineHeight: '12px',
+            wordWrap: 'break-word',
+          }}
+        >
+          30-DAY SATISFACTION GUARANTEE
+        </div>
+      </div>
 
-        <div style={{ width: '82px', height: '32px', position: 'relative' }}>
-          <img src={NortonLogo} style={{ width: '88px', height: '32px', left: '0px', top: '0px', position: 'absolute' }} alt="Norton logo" />
+      <div
+        style={{
+          width: '257px',
+          height: '22px',
+          left: '468px',
+          top: '15px',
+          position: 'absolute',
+        }}
+      >
+        <div
+          style={{
+            width: '22px',
+            height: '22px',
+            left: '0px',
+            top: '0px',
+            position: 'absolute',
+            flexDirection: 'column',
+            justifyContent: 'flex-start',
+            alignItems: 'flex-start',
+            display: 'inline-flex',
+          }}
+        >
+          <img
+            style={{
+              width: '18.20px',
+              height: '18.20px',
+            }}
+            src={truck}
+            alt="Truck"
+          />
+        </div>
+        <div
+          style={{
+            left: '30px',
+            top: '7px',
+            position: 'absolute',
+            color: 'white',
+            fontSize: '12px',
+            fontFamily: 'Manrope',
+            fontWeight: '500',
+            textTransform: 'uppercase',
+            lineHeight: '12px',
+            wordWrap: 'break-word',
+          }}
+        >
+          Free delivery on orders over $40.00
+        </div>
+      </div>
+
+      <div
+        style={{
+          width: '192px',
+          height: '22px',
+          left: '847px',
+          top: '15px',
+          position: 'absolute',
+        }}
+      >
+        <div
+          style={{
+            width: '22px',
+            height: '22px',
+            left: '0px',
+            top: '0px',
+            position: 'absolute',
+            flexDirection: 'column',
+            justifyContent: 'flex-start',
+            alignItems: 'flex-start',
+            display: 'inline-flex',
+          }}
+        >
+          <img
+            style={{
+              width: '18.20px',
+              height: '18.20px',
+            }}
+            src={heart}
+            alt="Heart"
+          />
+        </div>
+        <div
+          style={{
+            left: '30px',
+            top: '7px',
+            position: 'absolute',
+            color: 'white',
+            fontSize: '12px',
+            fontFamily: 'Manrope',
+            fontWeight: '500',
+            textTransform: 'capitalize',
+            lineHeight: '12px',
+            wordWrap: 'break-word',
+          }}
+        >
+          50,000+ HAPPY CUSTOMERS
+        </div>
+      </div>
+
+      <div
+        style={{
+          width: '209px',
+          height: '22px',
+          left: '1154px',
+          top: '15px',
+          position: 'absolute',
+        }}
+      >
+        <div
+          style={{
+            width: '22px',
+            height: '22px',
+            left: '0px',
+            top: '0px',
+            position: 'absolute',
+            flexDirection: 'column',
+            justifyContent: 'flex-start',
+            alignItems: 'flex-start',
+            display: 'inline-flex',
+          }}
+        >
+          <img
+            style={{
+              width: '18.20px',
+              height: '18.20px',
+            }}
+            src={arrow}
+            alt="Arrow Sync Checkmark"
+          />
+        </div>
+        <div
+          style={{
+            left: '30px',
+            top: '7px',
+            position: 'absolute',
+            color: 'white',
+            fontSize: '12px',
+            fontFamily: 'Manrope',
+            fontWeight: '500',
+            textTransform: 'uppercase',
+            lineHeight: '12px',
+            wordWrap: 'break-word',
+          }}
+        >
+          100% Money Back Guarantee
         </div>
       </div>
     </div>
