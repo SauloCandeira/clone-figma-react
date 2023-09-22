@@ -8,9 +8,10 @@ function App() {
       {/* <p>teste</p> */}
 
       <div className=''>
+        {/* <Header></Header> */}
 
+        <p> teste </p>
       </div>
-      <Header></Header>
 
     </>
   )
