@@ -3,7 +3,7 @@ function Header() {
 
   return (
     <>
-      <p className="read-the-docs">
+      <p>
         Header
       </p>
     </>
