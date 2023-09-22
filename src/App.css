@@ -1,9 +1,20 @@
-#root {
+/* App.css */
+.app-container {
+  display: flex;
+  flex-direction: row; /* Define a direção da linha */
+  justify-content: space-between; /* Espaço uniformemente os componentes na linha */
+  align-items: center; /* Alinha verticalmente ao centro */
+  padding: 20px; /* Adicione o espaçamento desejado */
+}
+
+/* Adicione mais estilos conforme necessário */
+
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
+} */
 
 /*
 .logo {

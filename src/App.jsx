@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Header from './components/Banner/Banner';
 import Banner from './components/Header/Header';
+import Title from './components/Title/Title';
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <div className=''>
         <Header></Header>
         <Banner></Banner>
+        <Title></Title>
       </div>
 
     </>
