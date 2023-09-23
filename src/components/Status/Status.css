@@ -1,0 +1,32 @@
+/* Title.css */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&family=Roboto:wght@100&family=Rubik:wght@300&display=swap');
+.title-container {
+  left: 432.50px;
+  top: 135px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  display: inline-flex;
+}
+
+.title-text {
+  color: black;
+  font-size: 48px;
+  font-family: Manrope;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 48px;
+  word-wrap: break-word;
+}
+
+.title-text p {
+  color: #4D5254;
+  font-size: 24px;
+  font-family: Manrope;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 24px;
+  word-wrap: break-word;
+}
